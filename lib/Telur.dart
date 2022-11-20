@@ -15,12 +15,14 @@ class Telur extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: ClipOval(
-                child: Image(
-                  width: 300,
-                  height: 300,
-                  fit: BoxFit.cover,
-                  image: NetworkImage(
-                    "https://asset.kompas.com/crops/Ot_kNrBpu3kGiOcKEonj6L_z12E=/0x0:1000x667/750x500/data/photo/2017/11/07/3855988092.jpg",
+                child: Center(
+                  child: Image(
+                    width: 300,
+                    height: 300,
+                    fit: BoxFit.cover,
+                    image: NetworkImage(
+                      "https://asset.kompas.com/crops/Ot_kNrBpu3kGiOcKEonj6L_z12E=/0x0:1000x667/750x500/data/photo/2017/11/07/3855988092.jpg",
+                    ),
                   ),
                 ),
               ),

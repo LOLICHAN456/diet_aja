@@ -15,12 +15,14 @@ class Yoga extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: ClipOval(
-                child: Image(
-                  width: 300,
-                  height: 300,
-                  fit: BoxFit.cover,
-                  image: NetworkImage(
-                    "http://ners.unair.ac.id/site/images/Lihat/Senam_Yoga.png",
+                child: Center(
+                  child: Image(
+                    width: 300,
+                    height: 300,
+                    fit: BoxFit.cover,
+                    image: NetworkImage(
+                      "http://ners.unair.ac.id/site/images/Lihat/Senam_Yoga.png",
+                    ),
                   ),
                 ),
               ),

@@ -15,12 +15,14 @@ class Lompat extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: ClipOval(
-                child: Image(
-                  width: 300,
-                  height: 300,
-                  fit: BoxFit.cover,
-                  image: NetworkImage(
-                    "https://akcdn.detik.net.id/community/media/visual/2021/08/19/ilustrasi-lompat-tali-1_169.jpeg?w=620",
+                child: Center(
+                  child: Image(
+                    width: 300,
+                    height: 300,
+                    fit: BoxFit.cover,
+                    image: NetworkImage(
+                      "https://akcdn.detik.net.id/community/media/visual/2021/08/19/ilustrasi-lompat-tali-1_169.jpeg?w=620",
+                    ),
                   ),
                 ),
               ),

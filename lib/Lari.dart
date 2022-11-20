@@ -16,12 +16,14 @@ class Lari extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: ClipOval(
-                child: Image(
-                  width: 300,
-                  height: 300,
-                  fit: BoxFit.cover,
-                  image: NetworkImage(
-                    "https://asset.kompas.com/crops/85NWcJqJv0RK0sS9thwlt-gyHD8=/0x0:0x0/750x500/data/photo/2014/07/18/1453596shutterstock-143473051p.jpg",
+                child: Center(
+                  child: Image(
+                    width: 300,
+                    height: 300,
+                    fit: BoxFit.cover,
+                    image: NetworkImage(
+                      "https://asset.kompas.com/crops/85NWcJqJv0RK0sS9thwlt-gyHD8=/0x0:0x0/750x500/data/photo/2014/07/18/1453596shutterstock-143473051p.jpg",
+                    ),
                   ),
                 ),
               ),

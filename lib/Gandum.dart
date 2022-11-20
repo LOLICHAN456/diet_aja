@@ -15,12 +15,14 @@ class Gandum extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: ClipOval(
-                child: Image(
-                  width: 300,
-                  height: 300,
-                  fit: BoxFit.cover,
-                  image: NetworkImage(
-                    "https://img-cdn.medkomtek.com/4dV18tDgvBROar2xRi0l9RUQhrA=/690x387/smart/filters:quality(75):strip_icc():format(webp)/article/15945j7o7Yq90dpUj3dLk/original/074022200_1483452395-Membedakan-Jenis-dan-Manfaat-Gandum.jpg",
+                child: Center(
+                  child: Image(
+                    width: 300,
+                    height: 300,
+                    fit: BoxFit.cover,
+                    image: NetworkImage(
+                      "https://img-cdn.medkomtek.com/4dV18tDgvBROar2xRi0l9RUQhrA=/690x387/smart/filters:quality(75):strip_icc():format(webp)/article/15945j7o7Yq90dpUj3dLk/original/074022200_1483452395-Membedakan-Jenis-dan-Manfaat-Gandum.jpg",
+                    ),
                   ),
                 ),
               ),

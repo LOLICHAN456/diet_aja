@@ -19,10 +19,12 @@ class MyHome extends StatelessWidget {
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
-            Text(
-              "MAKANAN SEHAT",
-              style: TextStyle(
-                  height: 3, fontSize: 18, fontWeight: FontWeight.bold),
+            Center(
+              child: Text(
+                "MAKANAN SEHAT",
+                style: TextStyle(
+                    height: 3, fontSize: 18, fontWeight: FontWeight.bold),
+              ),
             ),
             InkWell(
               onTap: () {
@@ -31,11 +33,13 @@ class MyHome extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => const Makanan()),
                 );
               },
-              child: Image(
-                width: 350,
-                height: 250,
-                image: NetworkImage(
-                    "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2021/06/05235325/menu-sehat.jpg"),
+              child: Center(
+                child: Image(
+                  width: 350,
+                  height: 250,
+                  image: NetworkImage(
+                      "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2021/06/05235325/menu-sehat.jpg"),
+                ),
               ),
             ),
             Text(

@@ -16,12 +16,14 @@ class Ayam extends StatelessWidget {
               padding: const EdgeInsets.all(10.0),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(30),
-                child: Image(
-                  width: 300,
-                  height: 300,
-                  fit: BoxFit.cover,
-                  image: NetworkImage(
-                    "https://awsimages.detik.net.id/community/media/visual/2016/06/01/a27ee39f-273b-4789-8ad6-bdc2deb4eca1_43.jpg?w=480",
+                child: Center(
+                  child: Image(
+                    width: 300,
+                    height: 300,
+                    fit: BoxFit.cover,
+                    image: NetworkImage(
+                      "https://awsimages.detik.net.id/community/media/visual/2016/06/01/a27ee39f-273b-4789-8ad6-bdc2deb4eca1_43.jpg?w=480",
+                    ),
                   ),
                 ),
               ),

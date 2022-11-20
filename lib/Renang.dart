@@ -15,12 +15,14 @@ class Renang extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: ClipOval(
-                child: Image(
-                  width: 300,
-                  height: 300,
-                  fit: BoxFit.cover,
-                  image: NetworkImage(
-                    "https://cdn0-production-images-kly.akamaized.net/d6kgZhRrVMwJlSy_6R4ZzObMfFc=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3920805/original/028633600_1643708051-gentrit-sylejmani-JjUyjE-oEbM-unsplash_1_.jpg",
+                child: Center(
+                  child: Image(
+                    width: 300,
+                    height: 300,
+                    fit: BoxFit.cover,
+                    image: NetworkImage(
+                      "https://cdn0-production-images-kly.akamaized.net/d6kgZhRrVMwJlSy_6R4ZzObMfFc=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3920805/original/028633600_1643708051-gentrit-sylejmani-JjUyjE-oEbM-unsplash_1_.jpg",
+                    ),
                   ),
                 ),
               ),

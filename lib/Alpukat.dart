@@ -15,12 +15,14 @@ class Alpukat extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: ClipOval(
-                child: Image(
-                  width: 300,
-                  height: 300,
-                  fit: BoxFit.cover,
-                  image: NetworkImage(
-                    "https://cms-dashboard.realfood.co.id/app/uploads/2021/09/avocado.jpg",
+                child: Center(
+                  child: Image(
+                    width: 300,
+                    height: 300,
+                    fit: BoxFit.cover,
+                    image: NetworkImage(
+                      "https://cms-dashboard.realfood.co.id/app/uploads/2021/09/avocado.jpg",
+                    ),
                   ),
                 ),
               ),

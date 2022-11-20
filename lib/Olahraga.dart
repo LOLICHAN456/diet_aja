@@ -17,9 +17,11 @@ class Olahraga extends StatelessWidget {
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
-            Text("1. Lari",
-                style: TextStyle(
-                    height: 3, fontSize: 18, fontWeight: FontWeight.bold)),
+            Center(
+              child: Text("1. Lari",
+                  style: TextStyle(
+                      height: 3, fontSize: 18, fontWeight: FontWeight.bold)),
+            ),
             InkWell(
               onTap: () {
                 Navigator.push(
@@ -29,16 +31,20 @@ class Olahraga extends StatelessWidget {
                   ),
                 );
               },
-              child: Image(
-                width: 350,
-                height: 250,
-                image: NetworkImage(
-                    "https://asset.kompas.com/crops/85NWcJqJv0RK0sS9thwlt-gyHD8=/0x0:0x0/750x500/data/photo/2014/07/18/1453596shutterstock-143473051p.jpg"),
+              child: Center(
+                child: Image(
+                  width: 350,
+                  height: 250,
+                  image: NetworkImage(
+                      "https://asset.kompas.com/crops/85NWcJqJv0RK0sS9thwlt-gyHD8=/0x0:0x0/750x500/data/photo/2014/07/18/1453596shutterstock-143473051p.jpg"),
+                ),
               ),
             ),
-            Text("2. Skipping",
-                style: TextStyle(
-                    height: 3, fontSize: 18, fontWeight: FontWeight.bold)),
+            Center(
+              child: Text("2. Skipping",
+                  style: TextStyle(
+                      height: 3, fontSize: 18, fontWeight: FontWeight.bold)),
+            ),
             InkWell(
               onTap: () {
                 Navigator.push(
@@ -48,16 +54,20 @@ class Olahraga extends StatelessWidget {
                   ),
                 );
               },
-              child: Image(
-                width: 350,
-                height: 250,
-                image: NetworkImage(
-                    "https://akcdn.detik.net.id/community/media/visual/2021/08/19/ilustrasi-lompat-tali-1_169.jpeg?w=620"),
+              child: Center(
+                child: Image(
+                  width: 350,
+                  height: 250,
+                  image: NetworkImage(
+                      "https://akcdn.detik.net.id/community/media/visual/2021/08/19/ilustrasi-lompat-tali-1_169.jpeg?w=620"),
+                ),
               ),
             ),
-            Text("3. Bersepeda",
-                style: TextStyle(
-                    height: 3, fontSize: 18, fontWeight: FontWeight.bold)),
+            Center(
+              child: Text("3. Bersepeda",
+                  style: TextStyle(
+                      height: 3, fontSize: 18, fontWeight: FontWeight.bold)),
+            ),
             InkWell(
               onTap: () {
                 Navigator.push(
@@ -67,16 +77,20 @@ class Olahraga extends StatelessWidget {
                   ),
                 );
               },
-              child: Image(
-                width: 350,
-                height: 250,
-                image: NetworkImage(
-                    "https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2020/11/Featured_Manfaat-Bersepeda-Imun-Kuat-Langsing-hingga-Bikin-Happy.jpg"),
+              child: Center(
+                child: Image(
+                  width: 350,
+                  height: 250,
+                  image: NetworkImage(
+                      "https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2020/11/Featured_Manfaat-Bersepeda-Imun-Kuat-Langsing-hingga-Bikin-Happy.jpg"),
+                ),
               ),
             ),
-            Text("4. Berenang",
-                style: TextStyle(
-                    height: 3, fontSize: 18, fontWeight: FontWeight.bold)),
+            Center(
+              child: Text("4. Berenang",
+                  style: TextStyle(
+                      height: 3, fontSize: 18, fontWeight: FontWeight.bold)),
+            ),
             InkWell(
               onTap: () {
                 Navigator.push(
@@ -86,16 +100,20 @@ class Olahraga extends StatelessWidget {
                   ),
                 );
               },
-              child: Image(
-                width: 350,
-                height: 250,
-                image: NetworkImage(
-                    "https://cdn0-production-images-kly.akamaized.net/d6kgZhRrVMwJlSy_6R4ZzObMfFc=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3920805/original/028633600_1643708051-gentrit-sylejmani-JjUyjE-oEbM-unsplash_1_.jpg"),
+              child: Center(
+                child: Image(
+                  width: 350,
+                  height: 250,
+                  image: NetworkImage(
+                      "https://cdn0-production-images-kly.akamaized.net/d6kgZhRrVMwJlSy_6R4ZzObMfFc=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3920805/original/028633600_1643708051-gentrit-sylejmani-JjUyjE-oEbM-unsplash_1_.jpg"),
+                ),
               ),
             ),
-            Text("5. Senam Yoga",
-                style: TextStyle(
-                    height: 3, fontSize: 18, fontWeight: FontWeight.bold)),
+            Center(
+              child: Text("5. Senam Yoga",
+                  style: TextStyle(
+                      height: 3, fontSize: 18, fontWeight: FontWeight.bold)),
+            ),
             InkWell(
               onTap: () {
                 Navigator.push(
@@ -105,11 +123,13 @@ class Olahraga extends StatelessWidget {
                   ),
                 );
               },
-              child: Image(
-                width: 350,
-                height: 250,
-                image: NetworkImage(
-                    "http://ners.unair.ac.id/site/images/Lihat/Senam_Yoga.png"),
+              child: Center(
+                child: Image(
+                  width: 350,
+                  height: 250,
+                  image: NetworkImage(
+                      "http://ners.unair.ac.id/site/images/Lihat/Senam_Yoga.png"),
+                ),
               ),
             ),
           ],

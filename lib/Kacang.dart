@@ -15,12 +15,14 @@ class Kacang extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: ClipOval(
-                child: Image(
-                  width: 300,
-                  height: 300,
-                  fit: BoxFit.cover,
-                  image: NetworkImage(
-                    "https://s1.bukalapak.com/bukalapak-kontenz-production/content_attachments/57446/original/kacang.jpg",
+                child: Center(
+                  child: Image(
+                    width: 300,
+                    height: 300,
+                    fit: BoxFit.cover,
+                    image: NetworkImage(
+                      "https://s1.bukalapak.com/bukalapak-kontenz-production/content_attachments/57446/original/kacang.jpg",
+                    ),
                   ),
                 ),
               ),

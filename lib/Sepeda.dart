@@ -15,12 +15,14 @@ class Sepeda extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: ClipOval(
-                child: Image(
-                  width: 300,
-                  height: 300,
-                  fit: BoxFit.cover,
-                  image: NetworkImage(
-                    "https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2020/11/Featured_Manfaat-Bersepeda-Imun-Kuat-Langsing-hingga-Bikin-Happy.jpg",
+                child: Center(
+                  child: Image(
+                    width: 300,
+                    height: 300,
+                    fit: BoxFit.cover,
+                    image: NetworkImage(
+                      "https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2020/11/Featured_Manfaat-Bersepeda-Imun-Kuat-Langsing-hingga-Bikin-Happy.jpg",
+                    ),
                   ),
                 ),
               ),
